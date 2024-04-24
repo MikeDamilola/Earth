@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earth</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+            <nav>
+                <div class="logo"><h1>EARTH</h1></div>
+                <ul class="nav-links">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./services.html">Services</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+
+            </nav>
+            <div class="menu-btn"><img src="./img/menu.svg" alt=""></div>
+            <div class="header-content">
+                <h1>EARTH</h1>
+                <p>ENDLESS POTENTIAL</p>
+                <button class="primary-btn">EXPLORE</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="container">
+        <div class="service">
+            <img src="./img/service-1.png" alt="">
+            <h1>Web Design</h1>
+            <p>
+                Custom made design for small businesses, we help you capture new
+                audiences and increase you sales.
+            </p>
+        </div>
+        <div class="service">
+            <img src="./img/service-2.png" alt="">
+            <h1>Graphics Design</h1>
+            <p>
+                Custom made design for small businesses, we help you capture new
+                audiences and increase you sales.
+            </p>
+        </div>
+        <div class="service">
+            <img src="./img/service-3.png" alt="">
+            <h1>Content Creation</h1>
+            <p>
+                Custom made design for small businesses, we help you capture new
+                audiences and increase you sales.
+            </p>
+        </div>
+    </section>
+
+    <section id="services" class="container">
+
+    </section>
+
+    <section id="about" class="container">
+        <div class="about-content">
+            <h1>About Us</h1>
+            <p>
+                I made it so it is super easy to update and so that is flows perfectly
+                with my tutorials. Lots of love and hundresds of hours went into making
+                it. i hope you love it as much as i do. i wish you the best of luck
+                with your business, enjoy the adventure.
+            </p>
+        </div>
+        <div class="about-img">
+            <img src="./img/about.png" alt="">
+        </div>
+    </section>
+
+    <section id="talk-to-us">
+        <div class="talk-to-us-content">
+            <h1>TALK TO US</h1>
+            <p>
+                Have any question? We are always open to talk about your business,
+                new projects, creative opportunities and how we can help you.
+            </p>
+            <button class="primary-btn">GET IN TOUCH</button>
+        </div>
+    </section>
+
+    <footer>
+        <ul class="footerlinks">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+        <h1 class="logo">EARTH</h1>
+        <p>@2022 Earth. All right reserved.</p>
+    </footer>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navLinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener("click", function () {
+            navLinks.classList.toggle("active");
+        });
+    </script>
+    
+
+</body>
+</html>
